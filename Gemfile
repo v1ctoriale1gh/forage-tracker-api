@@ -18,7 +18,11 @@ gem 'puma', '~> 4.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'geocoder'
+gem 'awesome_print'
+gem 'omniauth-google-oauth2'
+gem 'dotenv-rails'
+gem "paperclip", "~> 4.1.1"
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
