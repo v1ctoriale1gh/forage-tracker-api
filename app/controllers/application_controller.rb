@@ -23,7 +23,7 @@ class ApplicationController < ActionController::API
       #byebug
         render json: rendee 
      else 
-        render json: { error: '' }
+        render json: { error: 'Access Denied' }
       end
     end
 end
